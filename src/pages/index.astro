@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Mi portfolio">
+  <main class="flex justify-center">
+    <ul role="list" class="link-card-grid flex flex-wrap gap-4 justify-center">
+      <Card
+        title="Countdown"
+        image="https://picsum.photos/300/300?random=1"
+        description="Learn how Astro works and explore the official API docs."
+        hrefExecutable="https://docs.astro.build/"
+        hrefCode="https://docs.astro.build/"
+      />
+      <Card
+        title="Exploding card"
+        image="https://picsum.photos/300/300?random=2"
+        description="Learn how Astro works and explore the official API docs."
+        hrefExecutable="https://docs.astro.build/"
+        hrefCode="https://docs.astro.build/"
+      />
+      <Card
+        title="Splitwise"
+        image="https://picsum.photos/300/300?random=3"
+        description="Learn how Astro works and explore the official API docs."
+        hrefExecutable="https://docs.astro.build/"
+        hrefCode="https://docs.astro.build/"
+      />
+    </ul>
+  </main>
+</Layout>
